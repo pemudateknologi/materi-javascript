@@ -1,0 +1,87 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Selection</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+      }
+      body {
+        border: 3px solid #ccc;
+        width: 400px;
+        margin: auto;
+        padding: 20px;
+        margin-top: 15%;
+      }
+
+      #judul {
+        border: 3px solid #ccc;
+        padding: 5px;
+      }
+
+      div {
+        margin: 20px 0;
+      }
+
+      .container {
+        border: 3px solid #ccc;
+        padding: 10px;
+      }
+
+      #a,
+      p {
+        border: 3px solid #ccc;
+        padding: 10px;
+      }
+
+      #a a {
+        border: 3px solid #ccc;
+        padding: 10px;
+      }
+
+      #b {
+        border: 3px solid #ccc;
+        padding: 20px;
+        margin: 20px;
+      }
+
+      ul li {
+        border: 3px solid #ccc;
+        padding: 10px;
+      }
+
+      .biruMuda {
+        background-color: lightskyblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="judul">
+      <h1>Hello World!</h1>
+    </div>
+    <div class="container">
+      <button id="btn">Color</button>
+      <section id="a">
+        <p class="p1">Paragarf 1</p>
+        <a href="#">Pemuda teknologi</a>
+        <p class="p2">Paragarf 2</p>
+        <p class="p3">Paragarf 3</p>
+      </section>
+      <section id="b">
+        <p>Paragrag 4</p>
+        <ul>
+          <li><a href="#">Item 1</a></li>
+          <li><a href="#">Item 2</a></li>
+          <li><a href="#">Item 3</a></li>
+        </ul>
+      </section>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
